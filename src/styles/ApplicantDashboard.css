@@ -1,0 +1,71 @@
+.applicant-dashboard {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .job-list {
+    width: 30%;
+    margin-right: 20px;
+  }
+  
+  .job-card {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .job-card:hover {
+    background-color: #ebf5f4;
+  }
+
+  .job-card::selection{
+    background-color: black;
+  }
+  
+  .applications-section {
+    width: 70%;
+  }
+  
+  .applications-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .applications-section li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #428d8b;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #306e6a;
+  }
+
+  .action-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s;
+  }
+  
+  .add-job {
+    background-color: #306e6a;
+    color: white;
+    margin-bottom: 20px;
+  }

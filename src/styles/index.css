@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0ffff;
+  color: #17252a;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header, footer {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header li {
+  margin: 0 15px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.homepage-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.homepage-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.homepage-container p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.homepage-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  opacity: 0.9;
+}
+
+.jobapplicationform {
+  margin: 32.5px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+}
+
+.jobappleftbtn {
+  float: left;
+  padding: 10px 20px;
+  background-color: #6c7e7d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+  font-size: 1.2rem;
+}
+
+.jobapprightbtn {
+  float: right;
+  padding: 10px 20px;
+  background-color: #2b7a78;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+  font-size: 1.2rem;
+}
+
+.registerform {
+  margin: 32.5px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+}
+
+.loginform {
+  margin: 119px auto;
+  padding: 25.5px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+form input {
+  width: 90%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+form select {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  padding: 6px
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #2b7a78;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+form button:hover {
+  opacity: 0.7;
+}
+
+.dashboard-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.dashboard-container h1 {
+  margin-bottom: 20px;
+}
+
+.dashboard-container button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-container button:hover {
+  opacity: 0.9;
+}
